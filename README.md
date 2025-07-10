@@ -4,7 +4,7 @@ Official code of our paper ["Weakly-Supervised Referring Image Segmentation via 
 
 ### Overview
 ---
-![aa](./QQ20250710-213401.png)
+![aa](./main.png)
 
 we propose a  Progressive Comprehension Network (PCNet) to leverage target-related textual cues from the input description for progressively localizing the target object. We first use a Large Language Model (LLM) to decompose the input text description into short phrases. These short phrases are taken as target-related cues and fed into a Conditional Referring Module (CRM) in multiple stages, to enhance the response map for target localization in a multi-stage manner. We also propose a RaS loss to constrain the visual localization across different stages and an Instance-aware Disambiguation (IaD) loss to suppress instance localization ambiguity.
 
