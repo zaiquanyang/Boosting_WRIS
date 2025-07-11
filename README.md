@@ -81,15 +81,23 @@ CUDA_VISIBLE_DEVICES=0 python validate.py \
     --save_cam \
     --eval
 ```
-
+---
 ### Acknowledgement
 
 This repository  was mostly based on [TRIS](https://github.com/fawnliu/TRIS/tree/main)
 
+---
+
 ### Citation
 
 ```
+@article{yang2024boosting,
+  title={Boosting weakly-supervised referring image segmentation via progressive comprehension},
+  author={Yang, Zaiquan and Liu, Yuhao and Lin, Jiaying and Hancke, Gerhard and Lau, Rynson WH},
+  journal={arXiv preprint arXiv:2410.01544},
+  year={2024}
+}
 ```
-
+---
 ### Contact
 If you have any questions, please feel free to reach out at zaiquanyangcat@gmail.com.
